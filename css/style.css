@@ -1,0 +1,422 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mali|Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Mali|Rubik+Mono+One&display=swap');
+
+:root {
+    --tomato-color: #ff433d;
+    --yellow-color: #ffb347;
+    --megenta-color: rgba(168, 2, 168, 0.897);
+    --lime-color: rgba(8, 248, 80, 0.932);
+    --light-orange: #ff6215;
+  }
+body {
+    position: relative;
+    background: #F2F7F8;
+  }
+#top{
+    min-height: 500px;
+    background: url("/img/c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.top{
+    background:rgba(1,1,1,.40) ;
+    min-height: 500px;
+}
+.navbar-default{
+    background: transparent;
+    border: none;
+    padding: 18px 0px;
+    transition: .3s;
+
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+   font-size: 1rem;
+   text-transform: uppercase;
+}
+.navbar-brand>img{
+    max-width: 50px;
+    margin-top:-15px;
+    height: auto;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
+  color: #16F65A;
+}
+.navbar-right{
+  background: #40424a;
+  border-right: 3px solid #16F65A;
+  border-bottom: 3px solid #f7ff00;
+}
+.top .nav-div-image{
+    max-width: 250px;
+    
+    height: auto;
+}
+.top .nav-div-image img{
+    border-radius: 50%;
+    padding-top: 150px;
+    margin-left: 450px;         
+}
+.nav-div-words h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.nav-div-words p {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Mali', cursive;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+.btn{
+    background: rgba(1, 1, 1, .25);
+    color: #fff;
+    margin-top:50px; 
+}
+.angle-down a i{
+    padding-top: 25px;
+    color: #fff;
+    font-size: 3rem;
+}
+.top-nav-collapse{
+    background: rgba(1, 1, 1, .30);
+}
+/*--------------------portfolio section-----------------------*/
+#portfolio{
+    margin: 100px 0px;
+    padding: 50px 0px;
+}
+.info-text{
+    font-family: 'Mali', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.info-text h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.info-text p{
+    font-size: 2rem;
+    margin:25px 0px;
+}
+.info-text h2{
+    font-size: 3rem;
+    font-weight: bold;
+    margin:25px 0px;
+}
+.info-text ul{
+    padding-inline-start: 0px;
+
+}
+.info-text ul li{
+    font-size: 1rem;
+    text-align: left;
+    list-style: none;
+    text-align: justify;
+    margin:20px 0px;
+}
+.info-text ul li span{
+    display: inline-block;
+    min-width: 150px;
+}
+.general-image { 
+    width: 485px;
+    height: 650px;
+    background: url("/img/sagar8.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+/*------------------------------------footer/contact section---------------*/
+
+#contact{
+  padding: 80px 0;
+  border: 20px solid #16F65A;
+  font-family: 'Mali', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to left,#ff433d,#ff6215,#16F65A,#f7ff00) ;
+}
+.social-links{
+  
+    border-top:25px solid #f7ff00;
+    font-size: 3rem;
+    background: transparent;
+    display: inline-block;
+    padding-inline-start: 0;
+    margin-inline-start: 0;
+    padding: 30px 0px;
+    
+}
+.social-links  h3{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.social-icons a{
+    padding: 0px 20px;
+}
+.social-icons::after{
+    position: absolute;
+	content: '';
+	width: 35%;
+	height: 2px;
+	left: 65%;
+	top: 50%;
+	margin-top: 1px;
+	background: #cbcbcb;
+}
+.contact-me h1{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.contact-me samp{
+
+  font-family: 'Satisfy', cursive;
+  color: #f7ff00;  
+}
+.contact-me p{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+.contact-me h1 span{
+
+  font-family: 'Satisfy', cursive;
+}
+.contactForm{
+  padding: 5px 0px;
+}
+
+.cent h1{
+  margin-top: 50px; 
+  font-size: 1rem; 
+}
+/*----------------------main-portfolio----------------*/
+#main-portfolio{
+    background: url("/img/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding: 60px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.edu-heading h1{
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+#main-portfolio .edu-heading h1::after{
+    position: absolute;
+	content: '';
+	width: 50%;
+	height: 2px;
+	left: 0;
+	top: 65px;
+	background: #40424a;
+}
+.academic-pos .main{
+    list-style: none;
+    position: relative;
+}
+.academic-pos .main::after{
+    position: absolute;
+	content: '';
+	width: 15px;
+	height: 15px;
+	border: 2px solid #40424a;
+	border-radius: 50px;
+	background: #cacaca;
+    top: 40px;
+    left: -48px;
+}
+.academic-pos{
+    border-left: 2px solid #40424a;
+}
+.academic-pos h2{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.academic-pos h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.academic-pos h4,p{
+  color: #808181  ;
+  padding: 10px 0;
+}
+.main-inside{
+    list-style: none;  
+}
+.academic-pos h6{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.main-inside {
+    padding-inline-start: 0;
+}
+.main-inside li{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #808181  ;
+    padding: 10px 0;
+}
+.main-inside li span{
+    display: inline-block;
+    min-width: 250px;
+    border-right: 2px solid #40424a;
+    border-width: 20px;
+    margin-right: 20px;
+}
+/*-------------------------------skills---------------------*/
+#skills{
+  padding: 100px 0;
+}
+#skills h1 {
+    font-family: 'Mali', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 6vmin;
+  }
+  
+  #skills .p {
+    padding: 1.4vmin 13vmin;
+    font-size: 2vmin;
+    font-family: 'Mali', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  #skills .progress-one,
+  .progress-two,
+  .progress-three {
+    padding: 1vmin 0 ;
+    position: relative;
+  }
+  
+  #skills .caption {
+    position: relative;
+    top: 2.2em;
+    left: 40%;
+    margin-bottom: 3em;
+    font-size: 1rem;
+    border-radius: 0.2em;
+    width: 5rem;
+    background-color: var(--tomato-color);
+    color: white;
+  }
+  #skills .caption::after {
+    content: " ";
+    position: absolute;
+    top: 1.5em;
+    left: 2em;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid var(--tomato-color);
+  }
+  
+  #skills .progress-two .caption {
+    left: 40%;
+  }
+  
+  #skills .progress-two .progress-curcle::before {
+    left: 74%;
+  }
+  
+  #skills .progress-three .caption {
+    left: 70%;
+  }
+  
+  #skills .progress-three .progress-curcle::before {
+    left: 76%;
+  }
+  
+  /*          Progress bar Coloring                 */
+  
+  #skills .progress-one .progress-bar {
+    background: var(--tomato-color);
+  }
+  
+  #skills .progress-two .progress-bar {
+    background: var(--lime-color);
+  }
+  
+  #skills .progress-three .progress-bar {
+    background: var(--megenta-color);
+  }
+  
+  #skills .pro-details {
+    color: var(--tomato-color);
+    font-size: 3rem;
+    padding: 4vmin 0;
+  }
+  
+  #skills .progress-two .pro-details {
+    color: var(--lime-color);
+  }
+  
+  #skills .progress-three .pro-details {
+    color: var(--megenta-color);
+  }
+  
+  #skills div:last-child {
+    padding-bottom: 5vmin;
+  }
+/*----------------Gallery sections--------------*/  
+#gallery{
+  font-family: 'Mali', cursive;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(to left, #16F65A, #f7ff00, #16F65A,#f7ff00,#16F65A,#f7ff00, #16F65A,#f7ff00,#16F65A);
+}
+.gallery-header h1{
+  font-size: 6rem;
+  font-weight: 600;
+  padding: 1em 0;
+}
+#gallery .img-wrap{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 20px;
+}
+
+#gallery .img-wrap .gallery-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#gallery .img-wrap .img-1{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#gallery .img-wrap .img-2{
+  grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+#gallery .img-wrap .img-3{
+  grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#gallery .img-wrap .img-4{
+  grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
