@@ -20,7 +20,7 @@ body {
     background-repeat: no-repeat;
 }
 .top{
-    background:rgba(1,1,1,.40) ;
+    background:rgba(1,1,1,.70) ;
     min-height: 500px;
 }
 .navbar-default{
@@ -126,7 +126,7 @@ body {
 .general-image { 
     width: 485px;
     height: 650px;
-    background: url("/img/sagar8.jpg");
+    background: url("/img/sagar5.jpg");
     background-repeat: none;
     background-size: cover;
 }
@@ -143,7 +143,7 @@ body {
 }
 .social-links{
   
-    border-top:25px solid #f7ff00;
+    /* border-top: .3rem solid #f7ff00; */
     font-size: 3rem;
     background: transparent;
     display: inline-block;
@@ -303,7 +303,7 @@ body {
   #skills .caption {
     position: relative;
     top: 2.2em;
-    left: 40%;
+    left: 70%;
     margin-bottom: 3em;
     font-size: 1rem;
     border-radius: 0.2em;
@@ -322,7 +322,7 @@ body {
   }
   
   #skills .progress-two .caption {
-    left: 40%;
+    left: 60%;
   }
   
   #skills .progress-two .progress-curcle::before {
@@ -368,6 +368,11 @@ body {
   #skills div:last-child {
     padding-bottom: 5vmin;
   }
+
+  .progress{
+    background: #ccc7c7 !important;
+  }
+
 /*----------------Gallery sections--------------*/  
 #gallery{
   font-family: 'Mali', cursive;
